@@ -23,3 +23,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class com.taobao.securityjni.**{*;}
+-keep class com.taobao.wireless.security.**{*;}
+-keep class com.ut.secbody.**{*;}
+-keep class com.taobao.dp.**{*;}
+-keep class com.alibaba.wireless.security.**{*;}
